@@ -30,6 +30,7 @@ jobs:
           report-title: 'Test Report'
 
   build:
+    needs : test
     runs-on: ubuntu-latest
 
     steps:
